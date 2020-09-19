@@ -1,0 +1,272 @@
+body {
+background: #e6e6e6;
+font-family: Rubik;
+}
+
+.main-head {
+background: #c5c74d;
+box-shadow: 0px 1px 10px -6px rgba(0, 0, 0, .15);
+padding: 1rem;
+margin-bottom: 0;
+margin-top: 5rem;
+color: #fff;
+font-weight: 500;
+text-transform: uppercase;
+border-radius: 4px;
+font-size: 16px;
+}
+
+.pricing-table {
+background: #fff;
+box-shadow: 0px 1px 10px -6px rgba(200, 0, 0, 0.15);
+padding: 2rem;
+border-radius: 4px;
+transition: .3s;
+}
+
+.pricing-table:hover {
+box-shadow: 0px 1px 10px -4px rgba(0, 0, 0, .15);
+}
+
+.pricing-table .pricing-label {
+border-radius: 2px;
+padding: .25rem .5rem;
+margin-bottom: 1rem;
+display: inline-block;
+font-size: 12px;
+font-weight: 500;
+}
+
+.pricing-table h2 {
+color: #3b3b3b;
+font-size: 24px;
+font-weight: 500;
+}
+
+.pricing-table h5 {
+color: #B3B3B3;
+font-size: 14px;
+font-weight: 400;
+}
+
+.pricing-table .pricing-features {
+margin-top: 2rem;
+}
+
+.pricing-table .pricing-features .feature {
+font-size: 14px;
+margin: .5rem 0;
+color: #B3B3B3;
+}
+
+.pricing-table .pricing-features .feature span {
+display: inline-block;
+float: right;
+color: #3b3b3b;
+font-weight: 500;
+}
+
+.pricing-table .price-tag {
+margin-top: 2rem;
+text-align: center;
+font-weight: 500;
+}
+
+.pricing-table .price-tag .symbol {
+font-size: 24px;
+}
+
+.pricing-table .price-tag .amount {
+letter-spacing: -2px;
+font-size: 64px;
+}
+
+.pricing-table .price-tag .after {
+color: #3b3b3b;
+font-weight: 500;
+}
+
+.pricing-table .price-button {
+display: block;
+color: #fff;
+margin-top: 2rem;
+padding: .75rem;
+border-radius: 2px;
+text-align: center;
+font-weight: 500;
+transition: .3s;
+}
+
+.pricing-table .price-button:hover {
+text-decoration: none;
+}
+
+.purple .pricing-label {
+background: #4cbb55;
+color: #627afe;
+}
+
+.purple .price-tag {
+color: #4cbb55;
+}
+
+.purple .price-button {
+background: #4cbb55;
+}
+
+.purple .price-button:hover {
+background: #4cbb55;
+}
+
+.turquoise .pricing-label {
+background: #daca3d;
+color: #b9edee;
+}
+
+.turquoise .price-tag {
+color: #c6c92c;
+}
+
+.turquoise .price-button {
+background: #dac619;
+}
+
+.turquoise .price-button:hover {
+background: #c4b218;
+}
+
+.red .pricing-label {
+background: #ffc4c4;
+color: #ff5e5e;
+}
+
+.red .price-tag {
+color: #ff5e5e;
+}
+
+.red .price-button {
+background: #ff5e5e;
+}
+
+.red .price-button:hover {
+background: #f23c3c;
+}
+
+body {
+  background: #E5D5CA;
+ }
+                                           
+ .text {
+  margin: 0 60px;
+ }
+                                           
+ h1 {
+ font-size: 32px;
+ margin-top: 0;
+ font-family: 'Playfair Display', serif;
+ font-weight: 400;
+ font-style: italic;
+ text-align: center;
+ background: #FF7D6D;
+ color: #fff;
+ padding: 4px;
+ }
+                                           
+ p,
+ span,
+.twitter {
+ font: normal normal 10px Arial;
+text-align: center;
+ color: #998578;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+ }
+                                           
+.twitter {
+  color: #000000;
+ text-decoration: none;
+ display: block;
+  padding: 14px;
+ -webkit-transition: all .25s ease;
+ -moz-transition: all .25s ease;
+ -ms-transition: all .25s ease;
+ -o-transition: all .25s ease;
+ transition: all .25s ease;
+ }
+                                           
+.twitter:hover {
+  color: #FF7D6D;
+ text-decoration: none;
+ }
+                                           
+ span {
+ font-style: italic;
+ display: block;
+}
+                                           
+ img {
+   max-width: 100%;
+  }
+ /* Floating Social Media Bar Style Starts Here */
+                                           
+.fl-fl {
+ background: #000000;
+ text-transform: uppercase;
+ letter-spacing: 3px;
+ padding: 4px;
+ width: 190px;
+ position: fixed;
+ right: -160px;
+ z-index: 1000;
+ font: normal normal 10px Arial;
+ -webkit-transition: all .25s ease;
+ -moz-transition: all .25s ease;
+ -ms-transition: all .25s ease;
+ -o-transition: all .25s ease;
+transition: all .25s ease;
+}
+                                           
+.fa {
+font-size: 20px;
+color: #fff;
+ padding: 10px 0;
+ width: 40px;
+ margin-left: 8px;
+ }
+                                           
+ .fl-fl:hover {
+ right: 0;
+}
+                                           
+.fl-fl a {
+ color: #fff !important;
+ text-decoration: none;
+ text-align: center;
+line-height: 43px!important;
+vertical-align: top!important;
+ }
+                                           
+.float-fb {
+top: 160px;
+ }
+                                           
+.float-tw {
+ top: 215px;
+}
+                                           
+.float-gp {
+ top: 270px;
+ }
+                                           
+ .float-rs {
+ top: 325px;
+}
+                                           
+.float-ig {
+ top: 380px;
+ }
+                                           
+.float-pn {
+top: 435px;
+}
+/* Floating Social Media Bar Style Ends Here */
